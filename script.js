@@ -562,6 +562,7 @@ let currentTrack = 'pulse_support';
 // سياق المقابلة: إما Track عام أو Case محددة
 let interviewContext = { mode: 'track', track: currentTrack, caseObj: null };
 let lastOpenedCase = null;
+let lastGeneratedTicket = null;
 
 // تطبيق الترجمة على واجهة الصفحة
 function applyTranslations() {
